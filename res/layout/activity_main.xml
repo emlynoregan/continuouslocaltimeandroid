@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center" 
+    android:background="@drawable/background"
+    >
+    
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="@string/titletext"
+        android:textColor="@android:color/white"
+        />
+    
+    <TextView
+        android:id="@+id/txtByLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:text="@string/byline"
+        android:layout_below="@+id/txtTitle"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        />
+    
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/timedefaulttext"
+        android:layout_below="@+id/txtByLine"
+        android:gravity="center_horizontal"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/txtStats"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/statsdefaulttext"
+        android:layout_below="@+id/txtTime"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/txtFooterText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/footertext"
+        android:layout_below="@+id/txtStats"
+        android:gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

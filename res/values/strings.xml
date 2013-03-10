@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Continuous Local Time</string>
+    <string name="titletext">Continuous Local Time</string>
+    <string name="byline">by Emlyn O\'Regan</string>
+    <string name="bylinelink">https://plus.google.com/u/1/100281903174934656260</string>
+    <string name="timedefaulttext">Some error has occurred</string>
+    <string name="statsdefaulttext">Some error has occurred</string>
+    <string name="footertext">Shout out to G+ers, particularly Wayne Radinsky, for this waste of everyone\'s (poorly measured) time!</string>
+    
+</resources>
